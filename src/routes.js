@@ -8,6 +8,7 @@ const authMiddleware = require('./app/middlewares/auth')
 
 const SessionController = require('./app/controllers/SessionController')
 const DashboardController = require('./app/controllers/DashboardController')
+
 // routes.get('/api/v1/users/me', UserController.Index)
 
 routes.post('/api/v1/sessions', SessionController.Store)
